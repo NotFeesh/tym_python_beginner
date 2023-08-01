@@ -10,7 +10,7 @@ print("You have 5 chances to guess.")
 # Allow 5 chances to guess the number
 for attempt in range(1, 6):
     # Ask the user to input their guess
-    guess = int(input(f"Attempt {attempt + 1}: Enter your guess: "))
+    guess = int(input(f"Attempt {attempt}: Enter your guess: "))
     
     #Correct answer
     if guess == secret_number:
